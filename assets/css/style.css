@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -60,6 +61,50 @@ h1, h2 {
     border-bottom: 1px solid #000000;
 }
 
-.active a:hover {
-    color: #ffffff;
+/* hero image */
+
+#hero-outer {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 350px;
+    width: 100%;
+    background: url('../images/heroimage-dronewheatfield2.webp') no-repeat center center;
+    background-size: cover;
+}
+
+/* drone studio */
+
+#drone-studio {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#about {
+    font-family: Open-sans, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 6px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* video home */
+
+video {
+    padding-top: 100px;
+    display: block;
+    margin: 0 auto;
 }
