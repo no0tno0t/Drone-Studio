@@ -220,7 +220,7 @@ form {
 }
 
 .form-control {
-    width: 600px;
+    width: 300px;
     background: transparent;
     border: none;
     outline: none;
@@ -240,10 +240,8 @@ form {
 
 
 .form-submit {
-    color: #fff;
-    padding-top: 20px;
-    padding-right: 470px;
-    width: 600px;
+    width: 300px;
+    padding-right: 20%;
     background: transparent;
     border: none;
     outline: none;
