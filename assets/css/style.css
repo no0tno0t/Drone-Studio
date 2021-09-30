@@ -168,6 +168,9 @@ footer {
 }
 
 /* motion */
+#motion {
+    text-align: center;
+}
 
 #motionpicture {
     padding-top: 80px;
@@ -176,7 +179,10 @@ footer {
 
 /* graphic */
 
+
+
 #photos {
+    text-align: center;
     padding-top: 80px;
     clear: both;
     line-height: 0;
@@ -247,10 +253,4 @@ form {
     outline: none;
     font-size: 18px;
     margin: 16px;
-}
-
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width:) {
-    
 }
