@@ -82,7 +82,7 @@ h1, h2 {
     background-size: cover;
 }
 
-/* drone studio */
+/* drone studio about */
 
 #drone-studio {
     font-family: Roboto, sans-serif;
@@ -104,16 +104,54 @@ h1, h2 {
 /* video home */
 
 video {
-    padding-top: 100px;
+    padding-bottom: 60px;
     display: block;
     margin: 0 auto;
+}
+
+
+/* Buttons motionandgraphic*/
+
+#motion a, #graphic a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#motion, #graphic {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+#motion a:hover, #graphic a:hover {
+    color: #9a9a9a;
+}
+
+/* video home */
+
+#videoblock video {
+    padding-bottom: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* graphic image */
+
+.graphic-image {
+    padding-bottom: 60px;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 /* footer */
 
 footer {
     height: 150px;
-}
+    background-color: #9a9a9a;}
 
 .social-networks {
     text-align: center;
@@ -124,6 +162,7 @@ footer {
 }
 .social-networks i {
     font-size: 160%;
-    padding-top: 5%;
+    padding-top: 2%;
     color: #000000;
 }
+
