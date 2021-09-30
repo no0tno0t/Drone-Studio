@@ -67,6 +67,7 @@ h1, h2 {
     height: 350px;
     width: 100%;
     overflow: hidden;
+    padding-bottom: 10px;
 
 
 }
@@ -166,3 +167,8 @@ footer {
     color: #000000;
 }
 
+/* motion */
+
+#motionpicture {
+    padding-top: 80px;
+}
